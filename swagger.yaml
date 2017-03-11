@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: Nightscout API
+  title: GlucoScan API
   description: Own your DData with the Nightscout API
   version: "0.8.0"
   license:
