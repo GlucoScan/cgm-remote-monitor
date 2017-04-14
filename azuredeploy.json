@@ -50,7 +50,7 @@
         "mg/dl",
         "mmol"
       ],
-      "defaultValue": "mg/dl"
+      "defaultValue": "mmol"
     },
     "apiSecret": {
       "type": "string",
@@ -103,7 +103,7 @@
     },
     "custom_title": {
       "type": "string",
-      "defaultValue": "Nightscout",
+      "defaultValue": "GlucoScan",
     },
     "alarm_high": {
       "type": "string",
@@ -111,7 +111,7 @@
         "on",
         "off"
       ],
-      "defaultValue": "off",
+      "defaultValue": "on",
     },
     "alarm_low": {
       "type": "string",
@@ -119,7 +119,7 @@
         "on",
         "off"
       ],
-      "defaultValue": "off",
+      "defaultValue": "on",
     },
     "alarm_timeago_urgent": {
       "type": "string",
@@ -127,7 +127,7 @@
         "on",
         "off"
       ],
-      "defaultValue": "off",
+      "defaultValue": "on",
     },
     "alarm_timeago_warn": {
       "type": "string",
@@ -135,7 +135,7 @@
         "on",
         "off"
       ],
-      "defaultValue": "off",
+      "defaultValue": "on",
     },
     "alarm_urgent_high": {
       "type": "string",
@@ -143,7 +143,7 @@
         "on",
         "off"
       ],
-      "defaultValue": "off",
+      "defaultValue": "on",
     },
     "alarm_urgent_low": {
       "type": "string",
@@ -151,7 +151,7 @@
         "on",
         "off"
       ],
-      "defaultValue": "off",
+      "defaultValue": "on",
     },
     "basal_render": {
       "type": "string",
@@ -185,7 +185,7 @@
     },
     "show_plugins": {
       "type": "string",
-      "defaultValue": "careportal",
+      "defaultValue": "basal bwp cage careportal cob rawbg sage iage treatmentnotify boluscalc profile",
     },
     "show_rawbg": {
       "type": "string",
@@ -194,7 +194,7 @@
         "never",
         "noise"
       ],
-      "defaultValue": "never",
+      "defaultValue": "always",
     },
     "devicestatus_advanced": {
       "type": "string",
