@@ -25,12 +25,12 @@
     "DISABLE": {
       "description": "Used to disable default features, expects a space delimited list, such as: direction upbat, see https://github.com/nightscout/cgm-remote-monitor/blob/master/README.md for more info",
       "value": "",
-      "required": false
+      "required": true
     },
     "ALARM_TYPES": {
       "description": "Alarm behavior currently 2 alarm types are supported simple and predict, and can be used independently or combined. The simple alarm type only compares the current BG to BG_ thresholds above, the predict alarm type uses highly tuned formula that forecasts where the BG is going based on it's trend. predict DOES NOT currently use any of the BG_* ENV's",
       "value": "simple",
-      "required": false
+      "required": true
     },
     "BG_HIGH": {
       "description": "Urgent high BG alarm. Default null value implies 260. Must be set in mg/dL. Only used with simple alarms.",
@@ -115,12 +115,12 @@
     "ALARM_URGENT_HIGH": {
       "description": "Browser default urgent high alarm enabled vaild settings are on or off",
       "value": "on",
-      "required": false 
+      "required": true 
     },
     "ALARM_HIGH": {
       "description": "Browser default high alarm enabled vaild settings are on or off",
       "value": "on",
-      "required": false
+      "required": true
     },
     "ALARM_LOW": {
       "description": "Browser default low alarm enabled vaild settings are on or off",
@@ -130,27 +130,27 @@
     "ALARM_URGENT_LOW": {
       "description": "Browser default urgent low alarm enabled vaild settings are on or off",
       "value": "on",
-      "required": false
+      "required": true
     },
     "ALARM_TIMEAGO_WARN": {
       "description": "Browser default warn after time of last data exceeds ALARM_TIMEAGO_WARN_MINS alarm enabled vaild settings are on or off",
       "value": "on",
-      "required": false
+      "required": true
     },
     "ALARM_TIMEAGO_WARN_MINS": {
       "description": "Browser default minutes since the last reading to trigger a warning",
       "value": "15",
-      "required": false
+      "required": true
     },
     "ALARM_TIMEAGO_URGENT": {
       "description": "Browser default urgent warning after time of last data exceeds ALARM_TIMEAGO_URGENT_MINS alarm enabled vaild settings are on or off",
       "value": "on",
-      "required": false
+      "required": true
     },
     "ALARM_TIMEAGO_URGENT_MINS": {
       "description": "Browser default minutes since last reading to trigger an urgent alarm",
       "value": "30",
-      "required": false
+      "required": true
     },
     "MAKER_KEY": {
       "description": "Maker Key - Set this to your secret key Note for additional info see https://github.com/nightscout/cgm-remote-monitor/blob/dev/README.md#ifttt-maker , maker should be added to enable if you want to use maker, Leave blank if not using maker",
