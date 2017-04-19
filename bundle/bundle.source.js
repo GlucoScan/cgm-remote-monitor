@@ -6,9 +6,9 @@
   window.moment = require('moment-timezone');
   window.sugar = require('sugar');
   window.crossfilter = require('crossfilter');
-  window.GlucoScan = window.GlucoScan || {};
+  window.Nightscout = window.Nightscout || {};
 
-  window.GlucoScan = {
+  window.Nightscout = {
     client: require('../lib/client')
     , units: require('../lib/units')()
     , report_plugins: require('../lib/report_plugins/')()
