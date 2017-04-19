@@ -104,8 +104,8 @@
     },
     "SHOW_RAWBG": {
       "description": "Browser default raw display mode vaild settings are always never or noise",
-      "value": "never",
-      "required": false 
+      "value": "always",
+      "required": true 
     },
     "THEME": {
       "description": "Browser default theme setting vaild settings are default or colors",
